@@ -191,5 +191,11 @@ Git 전역으로 사용자 이름과 이메일 주소를 설정
 |`git stash drop`|가장 최근의 stash를 제거한다|
 |`git stash drop "stash 이름"`|"stash 이름"에 해당하는 stash를 제거한다|
 |`git stash pop`|stash를 가져옴과 동시에 스택에서 제거한다|
-|`git stash show -p | git apply -R`|가장 최근의 stash를 사용하여 패치를 만들고 그것을 거꾸로 적용한다(stash 되돌리기)|
-|`git stash show -p "stash 이름" | git apply -R`|"stash 이름"에 해당하는 stash를 이용하여 거꾸로 적용한다(stash 되돌리기)|
+
+`git stash show -p | git apply -R`
+
+가장 최근의 stash를 사용하여 패치를 만들고 그것을 거꾸로 적용한다(stash 되돌리기)
+
+`git stash show -p "stash 이름" | git apply -R`
+
+"stash 이름"에 해당하는 stash를 이용하여 거꾸로 적용한다(stash 되돌리기)
