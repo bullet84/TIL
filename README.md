@@ -1,5 +1,5 @@
 # TIL
 Today I Learned
 
-### Git&GitHub
+## Git&GitHub
 - 마크다운
