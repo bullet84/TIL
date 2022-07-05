@@ -176,3 +176,20 @@ Git 전역으로 사용자 이름과 이메일 주소를 설정
 `git rebase --continue`로 이어서 실행
 
 모든 충돌이 해결 될 때까지 반복
+
+---
+## git stash
+>작업중 다른 작업을 해야 할 때, 아직 마무리 하지 않은 작업을 스택에 잠시 저장할 수 있도록 하는 명령어/tracked, staged인 파일들 가능
+
+|code|기능|
+|:--|:--|
+|`git stash`|스택에 새로운 stash 생성|
+|`git stash list`|stash를 여러번 했을 경우 stash목록 확인|
+|`git stash apply`|가장 최근의 stash를 가져온다|
+|`git stash apply "stash 이름"`|"stash 이름"에 해당하는 stash를 가져온다|
+|`git stash apply --index`|`--index`옵션을 통해 staged상태까지 불러온다|
+|`git stash drop`|가장 최근의 stash를 제거한다|
+|`git stash drop "stash 이름"`|"stash 이름"에 해당하는 stash를 제거한다|
+|`git stash pop`|stash를 가져옴과 동시에 스택에서 제거한다|
+|`git stash show -p | git apply -R`|가장 최근의 stash를 사용하여 패치를 만들고 그것을 거꾸로 적용한다(stash 되돌리기)|
+|`git stash show -p "stash 이름" | git apply -R`|"stash 이름"에 해당하는 stash를 이용하여 거꾸로 적용한다(stash 되돌리기)|
