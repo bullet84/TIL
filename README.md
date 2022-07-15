@@ -8,3 +8,6 @@ Today I Learned
 
 ## HTML_CSS
 - [HTML](https://github.com/bullet84/TIL/blob/main/HTML_CSS/HTML.md)
+
+## JavaScript
+- [JavaScript](https://github.com/bullet84/TIL/blob/main/JavaScript/JavaScript.md)
