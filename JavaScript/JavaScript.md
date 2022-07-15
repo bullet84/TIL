@@ -47,6 +47,12 @@ document.querySelectorAll('CSS Selector');	//여러개
 
 >querySelector와 querySelectorAll도 마찬가지
 
+### querySelector VS getElement
+|querySelector|getElement|
+|:--|:--|
+|NodeList에 리턴|HTMLcollection에 리턴|
+|인덱스 번호로만 접근이 가능|name, id속성으로도 접근이 가능|
+
 ## 조건문
 ``` javascript
 if(조건문){
